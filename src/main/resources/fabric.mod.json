@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rainforestkongra",
+  "version": "${version}",
+  "name": "Rainforest Kongra",
+  "description": "Adds a deadly rainforest ecosystem where rain drains your life, exotic animals roam, and the fearsome KONGRA boss can only be survived with special KONGRA armor.",
+  "authors": ["Rainforest Kongra Team"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rainforestkongra/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.rainforestkongra.RainforestKongraMod"],
+    "client": ["com.rainforestkongra.client.RainforestKongraClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "fabric-api": "*"
+  }
+}
